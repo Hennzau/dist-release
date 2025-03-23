@@ -8,7 +8,7 @@ members = [
 resolver = "2"
 
 [workspace.package]
-version = "0.1.9"
+version = "0.1.9-rc2"
 description = "workspace to test github actions with cargo-dist and cargo-release"
 edition = "2024"
 documentation = "https://github.com/Hennzau/arrow-message"
@@ -16,10 +16,10 @@ license = "Apache-2.0"
 repository = "https://github.com/Hennzau/dist-release"
 
 [workspace.dependencies]
-crate-lib-dep.version = "0.1.9"
+crate-lib-dep.version = "0.1.9-rc2"
 crate-lib-dep.path = "crates/crate-lib-dep"
 
-crate-lib.version = "0.1.9"
+crate-lib.version = "0.1.9-rc2"
 crate-lib.path = "crates/crate-lib"
 
 # The profile that 'dist' will build with
