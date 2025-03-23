@@ -4,25 +4,25 @@ version = 4
 
 [[package]]
 name = "crate-bin"
-version = "0.1.7"
+version = "0.1.8"
 dependencies = [
  "crate-lib",
 ]
 
 [[package]]
 name = "crate-bin-no-dist"
-version = "0.1.7"
+version = "0.1.8"
 dependencies = [
  "crate-lib",
 ]
 
 [[package]]
 name = "crate-lib"
-version = "0.1.7"
+version = "0.1.8"
 dependencies = [
  "crate-lib-dep",
 ]
 
 [[package]]
 name = "crate-lib-dep"
-version = "0.1.7"
+version = "0.1.8"
